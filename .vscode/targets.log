@@ -1,3 +1,4 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target 'all'.  Stop.
 
 # GNU Make 4.2.1
@@ -7,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Aug  7 18:56:19 2022
+# Make data base, printed on Tue Aug  9 19:55:23 2022
 
 # Variables
 
@@ -50,7 +51,7 @@ LESSOPEN = | /usr/bin/lesspipe %s
 # environment
 VSCODE_CWD = /home/acs
 # environment
-SSH_CONNECTION = 119.98.110.109 9864 10.0.16.15 22
+SSH_CONNECTION = 119.98.110.109 9112 10.0.16.15 22
 # environment
 PATH = /home/acs/.vscode-server/bin/da76f93349a72022ca4670c1b84860304616aaa2/bin/remote-cli:/home/acs/.homework:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin
 # environment
@@ -58,7 +59,7 @@ XDG_RUNTIME_DIR = /run/user/1003
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK_CLI = /run/user/1003/vscode-ipc-d934cc98-c790-471c-a5b0-ea4358c3b4d9.sock
+VSCODE_IPC_HOOK_CLI = /run/user/1003/vscode-ipc-bd335116-7d73-4fba-b47f-e6237be964a4.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -82,7 +83,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 LOGNAME = acs
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # automatic
 +F = $(notdir $+)
 # environment
@@ -98,7 +99,7 @@ MAKECMDGOALS := all
 # environment
 SHLVL = 0
 # environment
-XDG_SESSION_ID = 247369
+XDG_SESSION_ID = 251651
 # environment
 USER = acs
 # makefile
@@ -107,8 +108,6 @@ USER = acs
 %D = $(patsubst %/,%,$(dir $%))
 # default
 MAKE_COMMAND := make
-# environment
-OLDPWD = /home/acs/.vscode-server/bin/da76f93349a72022ca4670c1b84860304616aaa2
 # default
 .VARIABLES := 
 # automatic
@@ -120,7 +119,7 @@ MAKEFLAGS = pqrR
 # environment
 MFLAGS = -pqrR
 # environment
-SSH_CLIENT = 119.98.110.109 9864 22
+SSH_CLIENT = 119.98.110.109 9112 22
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # environment
@@ -152,7 +151,7 @@ LANG = C
 # environment
 MOTD_SHOWN = pam
 # variable set hash-table stats:
-# Load=70/1024=7%, Rehash=0, Collisions=9/92=10%
+# Load=69/1024=7%, Rehash=0, Collisions=9/91=10%
 
 # Pattern-specific Variable Values
 
@@ -160,9 +159,9 @@ MOTD_SHOWN = pam
 
 # Directories
 
-# . (device 64514, inode 660321): 27 files, no impossibilities.
+# . (device 64514, inode 660321): 31 files, no impossibilities.
 
-# 27 files, no impossibilities in 1 directories.
+# 31 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -212,12 +211,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 35 / storage = 307 B / avg = 8 B
-# current buf: size = 8162 B / used = 307 B / count = 35 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 39 / storage = 361 B / avg = 9 B
+# current buf: size = 8162 B / used = 361 B / count = 39 / avg = 9 B
 
-# strcache performance: lookups = 38 / hit rate = 7%
+# strcache performance: lookups = 42 / hit rate = 7%
 # hash-table stats:
-# Load=35/8192=0%, Rehash=0, Collisions=1/38=3%
-# Finished Make data base on Sun Aug  7 18:56:19 2022
+# Load=39/8192=0%, Rehash=0, Collisions=1/42=2%
+# Finished Make data base on Tue Aug  9 19:55:23 2022
 
  
